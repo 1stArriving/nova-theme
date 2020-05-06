@@ -1,0 +1,29 @@
+{
+    "name": "first-arriving/nova-theme",
+    "description": "A First Arriving theme for Laravel Nova.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "private": true,
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FirstArriving\\NovaTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FirstArriving\\NovaTheme\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
