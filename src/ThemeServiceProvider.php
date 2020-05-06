@@ -19,6 +19,7 @@ class ThemeServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/../resources/css' => public_path('first-arriving/nova-theme'),
+            __DIR__.'/../resources/views' => resource_path('views/vendor/nova'),
         ], 'public');
     }
 
